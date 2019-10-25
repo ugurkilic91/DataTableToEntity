@@ -8,6 +8,6 @@ namespace TableToEntity.Entity
         [Column("No")]
         public long Id { get; set; }
         [Column("Name")]
-        public string Name { get; set; }
+        public string Name { get; set; } 
     }
 }
